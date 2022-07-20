@@ -1,0 +1,7 @@
+        () => {
+                  
+                  setDoc(doc(db, 'law-firm', 'users'), {user: "premium-" + Date.now()}).then(() => {
+                    console.log("Yay new premium");
+                  }
+                  )
+                }
