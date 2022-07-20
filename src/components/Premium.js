@@ -6,11 +6,11 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { app } from '../firebase-config';
 
-function Discuss () {
+function Premium(){
     return (
         <>
-            <h1>Discuss</h1>
+            <h1>Premium</h1>
         </>
     )
 }
-export default Discuss;
+export default Premium;
