@@ -5,11 +5,15 @@ import { collection, doc, setDoc, getDoc, addDoc } from "firebase/firestore";
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { app } from '../firebase-config';
+import MainNavbar from './Navbar';
+
 
 function Premium(){
     return (
         <>
-            <h1>Premium</h1>
+            <Container fluid>
+                <MainNavbar />
+            </Container>
         </>
     )
 }

@@ -50,7 +50,7 @@ function MainNavbar () {
             {
               premium > 0 ?
                 <>
-                  <Navbar.Brand><Link  to={`/user/${user}/premium`}>Premium-content</Link> </Navbar.Brand>
+                  <Navbar.Brand><Link style={{textDecoration : "none", color : "black"}} to={`/user/${user}/premium`}>Premium-content</Link> </Navbar.Brand>
                   <Navbar.Brand> <NavLink to = "/discuss" style = {{textDecoration : "none", color : "black"}}>Discuss</ NavLink></Navbar.Brand>
                 </>
                 :

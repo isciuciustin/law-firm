@@ -9,7 +9,7 @@ import { app } from '../firebase-config';
 import MainNavbar from '../components/Navbar';
 import { Link, Outlet, NavLink, useNavigate, Route, Navigate, useParams } from 'react-router-dom';
 
-import img1 from '../img/1.png';
+import img1 from '../img/1.jpg';
 import img2 from '../img/2.jpg';
 import img3 from '../img/3.jpg';
 
