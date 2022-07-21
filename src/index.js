@@ -1,3 +1,4 @@
+import Error from './components/Error';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -13,6 +14,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="*" element={<Error />} />
       <Route path="/user/:email" element={<Main />} />
       <Route path="/user/:email/premium" element= {<Premium />} />
     </Routes>
