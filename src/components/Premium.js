@@ -45,7 +45,7 @@ function Premium() {
                         {
                             articles.map((data, index) => {
                                 return <li style={{ marginTop: "15px" }} key={data.id}>
-                                    <Link style={{ textDecoration: "none", color: "black" }} to={`/user/:email/premium/${data.id}`}>
+                                    <Link style={{ textDecoration: "none", color: "black" }} to={`/user/${user}/premium/${data.id}`}>
                                         <h5>{data.title}</h5>
                                        
                                     </Link>

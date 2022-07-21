@@ -23,21 +23,22 @@ function Article() {
             <Container fluid>
                 <MainNavbar />
                 <Container style={{ marginTop: "50px" }}>
-                    <Card style = {{marginBottom : "100px"}}>
+                    <Card style={{ marginBottom: "100px" }}>
                         <Card.Header>
                             <h5>{article.title}</h5>
                         </Card.Header>
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
-                                <p>
-                                    <h5 class="lead">
+                                <h5 className ="lead">
+                                    <p>
                                         {article.article}
-                                    </h5>
-                                </p>
+
+                                    </p>
+                                </h5>
                             </blockquote>
                         </Card.Body>
                     </Card>
-                    
+
                 </Container>
             </Container>
         </>
